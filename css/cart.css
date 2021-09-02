@@ -1,0 +1,62 @@
+.card {
+    background-color: rgb(254, 248, 242);
+}
+.card.card-product-grid {
+    border-radius: 15px;
+    border: 1px solid black;
+    box-shadow: 2px 2px black;
+}
+.card.card-product-grid .ribbon-wrapper{
+    width: 132px;
+    height: 130px;
+    overflow: hidden;
+    position: absolute;
+    top: -6px;
+    right: -7px;
+}
+.card.card-product-grid .ribbon-wrapper .ribbon.red {
+    right: 3px;
+    top: 25px;
+    width: 177px;
+    height: 45px;
+    background-color: rgb(242, 69, 65);
+    background-image: none;
+    padding: 15px 28px;
+}
+.card .ribbon {
+    text-align: start;
+}
+.card .ribbon.red {
+    font-size: 30px;
+    letter-spacing: -3px;
+}
+.card .ribbon.red h5 {
+    display: inline;
+    vertical-align: middle;
+}
+.card .ribbon.red div {
+    font-size: 7.5px;
+    display: inline;
+    font-weight: 600;
+    margin-left: -18px;
+    letter-spacing: 0px;
+}
+.price.text-success {
+    font-size: 40px;
+    color: rgb(242, 61, 66) !important;
+    
+}
+.price.text-success h5 {
+    display: inline;
+    vertical-align: middle;
+}
+
+.card .btn.btn-warning.mt-3{
+    width: 100%;
+    background-color: rgb(255, 208, 104);
+    border: 1px solid black;
+    color: black;
+    box-shadow: 3px 3px black;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
